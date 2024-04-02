@@ -1,0 +1,72 @@
+.footer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-self: center;
+  background-color: var(--primary);
+  background-repeat: no-repeat;
+  height: 5rem;
+  border-radius: 0.5rem;
+  width: 20em;
+  flex-wrap: wrap;
+  position: relative;
+  transform: translateY(50%);
+}
+.foot{
+  display: flex; 
+  flex-direction: column;
+   justify-items: center; 
+   align-items: center;
+}
+.footer1{
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  padding: 0 5%;
+  left: 0;
+  right:0;
+  z-index:-1;
+  flex-wrap: wrap;
+  margin: 3% 0 0 0;
+}
+.background{
+    background-image: url("https://culture.easy.xyz/wp-content/uploads/sites/6/2021/06/Background.png");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+}
+.flex{
+    display:flex;
+    color: white;
+}
+.flex1{
+    display:flex;
+    color: white;
+}
+
+.flex-content{
+    width:100%;
+  
+}
+.flex a{
+  color: white;
+}
+.footer1 div input{
+    background-color:#3E3E3E ;
+    border:1em;
+    padding:1rem;
+    margin: 0;
+    border-radius: 5px;
+}
+.footer1 div .btn_2{
+    background-color:#5306c9;
+    border:1em;
+    line-height: 2;
+    border-radius: 5px;
+    color:white;
+}

@@ -1,0 +1,167 @@
+/* *{
+  border: 1px solid red;
+} */
+:root{
+  --primary:#5330C9
+}
+.navigation {
+  display: flex;
+  list-style: none; /* Adjust padding as needed */
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Headings{
+  text-align: center;
+  font-family:"SF Compact Display";
+  font-weight: bold;
+  font-size: 30px;
+}
+.culture{
+    font-weight: 400;
+    color: #4c3ffd;
+    margin-left:0;
+    width: 100%;
+    max-width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+.italic{
+    font-weight: 200;
+    color: black;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+.navigation li {
+  padding: 0 10px; 
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  /* Adjust padding between links */
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header{
+  padding: 0;
+  /* flex-wrap: nowrap;
+   */
+   min-width:fit-content;
+}
+.container {
+  /* position: absolute; */
+  display: flex;
+  width: 100%;
+  /* flex-grow: 1; */
+  flex-direction: row;
+  /* padding: 0; */
+  align-items: center;
+  justify-items: center;
+
+   /* Ensures navigation bar stays on top */
+}
+.button{
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    border: 10px 10px;
+    color:var(--primary);
+    background-color: rgba(185, 195, 255, 0.6);
+    box-sizing: content-box;
+    line-height: 2;
+    font-weight: 500;
+    border-color: rgba(179,190,255,0.1);
+    border-radius: 5px;
+    margin:1%;
+    width: auto;
+    /* font-weight: bld; */
+    /* bopacity: 0.6;
+} */
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.login{
+    padding: 0 1%;
+    /* border: 10px 10px; */
+    color:var(--primary);
+    box-sizing: content-box;
+    background-color: transparent;
+    line-height: 0.1;
+    border:0;
+    margin:1% 1%;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+.button1{
+    padding: 0 10px;
+    justify-content: center;
+    color:white;
+    background-color:var(--primary);
+    box-sizing: content-box;
+    line-height: 2.2;
+    font-weight: 500;
+    line-height: 2;
+    border-color: rgba(179,190,255,0.1);
+    border-radius: 5px;
+    margin:1%;
+}
+.button2{
+  padding: 0 10px;
+    justify-content: center;
+    color:var(--primary);
+    background-color:white;
+    box-sizing: content-box;
+    width: fit-content;
+    line-height: 2.2;
+    font-weight: 500;
+    line-height: 2;
+    border-color: rgba(179,190,255,0.1);
+    border-radius: 5px;
+    margin:1%;
+}
+/* Hide dropdown menu initially */
+.dropdown-menu {
+  display: none;
+  position: absolute; /* Ensures menu stays within navbar */
+  top: 100%; /* Positions menu below the link */
+  left: 0;
+  background-color: #fff;
+  list-style: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Ensures menu appears above other elements */
+  padding: 10px 15%; /* Adjust padding as needed */
+  justify-content: center;
+}
+
+.dropdown-toggle {
+  display: none;
+  position: relative; 
+  cursor: pointer;
+}
+
+.dropdown-toggle a {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-icon {
+  font-size: 18px;
+  margin-left: 5px;
+  transition: transform 0.2s ease-in-out; 
+}
+
+
+.navigation > li:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+#f1{
+  width:20%
+}
