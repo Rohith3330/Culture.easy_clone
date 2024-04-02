@@ -1,6 +1,6 @@
 
-.s{
-  margin: 0 20% 
+.vertical-space{
+  margin: 0 2em;
 }
 .tabs{
   display: flex;
@@ -13,8 +13,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: end;
-
   padding-bottom: 1%;
+  margin-top: -4em;
+}
+.p-pad{
+  padding: 0 5%;
+}
+.text-left-align{
+  text-align: left;
+   width:60%; 
+   padding: 0 5%; 
+   line-height: 1\.5;
 }
 .canva{
   box-shadow: 2px;
@@ -33,7 +42,7 @@
   margin: 0 2%;
   height:10%;
 }
-#ss{
+#space{
     padding: 1em 0 0 0 ;
 }
 #f1,#f2,#f3,#f4,#f5{
