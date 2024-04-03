@@ -149,7 +149,22 @@ img {
     line-height: 2;
     border-color: rgba(179,190,255,0.1);
     border-radius: 5px;
+    width: 15em;
     margin:1%;
+}
+.button3{
+  padding: 0 10px;
+  justify-content: center;
+  color:white;
+  background-color:var(--primary);
+  box-sizing: content-box;
+  line-height: 2.2;
+  font-weight: 500;
+  line-height: 2;
+  border-color: rgba(179,190,255,0.1);
+  border-radius: 5px;
+  width: 5em;
+  margin:1%;
 }
 .button2{
   padding: 0 10px;
