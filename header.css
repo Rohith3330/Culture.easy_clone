@@ -2,7 +2,8 @@
   border: 1px solid red;
 } */
 :root{
-  --primary:#5330C9
+  --primary:#5330C9;
+  font-family: Red Hat Display , sans-serif;
 }
 .head-buttons{
   justify-content: space-evenly; 
@@ -53,8 +54,6 @@ a {
 }
 .Headings{
   text-align: center;
-  font-family:"SF Compact Display";
-  font-weight: bold;
   font-size: 30px;
 }
 .culture{
@@ -63,18 +62,15 @@ a {
     margin-left:0;
     width: 100%;
     max-width: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 .italic{
     font-weight: 200;
     color: black;
-    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 .navigation li {
   padding: 0 10px; 
   font-weight: bold;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   /* Adjust padding between links */
 }
 .main{
