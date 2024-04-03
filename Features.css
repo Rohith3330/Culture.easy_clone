@@ -45,6 +45,9 @@
     background-image: url("https://culture.easy.xyz/wp-content/uploads/sites/6/2021/06/BG.png");
     background-size: auto;
 }
+.half-width{
+  width:50%
+}
 
 @keyframes rotation {
   20% {
@@ -85,6 +88,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-self: center;
     padding: 0;
     margin: 0;
 
@@ -148,4 +152,8 @@
   .navigation{
     display: none;
   }
+  .half-width{
+    width:100%;
+  }
 }
+
